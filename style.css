@@ -1,0 +1,35 @@
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Remaining CSS rules unchanged */
+
+.logo-image {
+    max-width: 100px; /* Limit the logo's width to 100px */
+    max-height: 100px; /* Limit the logo's height to 100px */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+.contact-link {
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 8px;
+}
