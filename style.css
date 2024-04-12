@@ -49,6 +49,5 @@ header {
 .header-link {
     color: black; /* or any color you prefer */
     text-decoration: underline; /* Removes the underline, optional */
-    margin-left: 120px; /* Adjust based on your layout */
     font-size: 14px; /* Adjust as needed */
 }
