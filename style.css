@@ -2,15 +2,18 @@ body {
     font-family: 'Nunito', Arial, sans-serif;
     color: black;
     background-color: white;
+    position: relative;
+    margin: 0;
+    height: 100vh;
+}
+
+.content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    height: 100%;
 }
-
-/* Remaining CSS rules unchanged */
 
 .logo-image {
     max-width: 100px; /* Limit the logo's width to 100px */
@@ -32,4 +35,20 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 8px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 0; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.header-link {
+    color: black; /* or any color you prefer */
+    text-decoration: underline; /* Removes the underline, optional */
+    margin-left: 120px; /* Adjust based on your layout */
+    font-size: 14px; /* Adjust as needed */
 }
