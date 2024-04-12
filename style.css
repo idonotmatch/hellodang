@@ -49,6 +49,6 @@ header {
 .header-link {
     color: black; /* or any color you prefer */
     text-decoration: underline; /* Removes the underline, optional */
-    left-padding: 8px;
+    padding-left: 8px;
     font-size: 14px; /* Adjust as needed */
 }
